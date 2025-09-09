@@ -16,11 +16,15 @@ Este projeto treina e utiliza modelos de Machine Learning para prever notas do I
    git clone https://github.com/jadefso/projeto-indicium.git
    cd projeto-indicium
 2. Crie um ambiente virtual (opcional, mas recomendado):
-  `python -m venv venv
-  source venv/bin/activate   # Linux/Mac
-  venv\Scripts\activate      # Windows`
-3. Instale os requisitos:
-  `pip install -r requirements.txt`
-4. Abra o Jupyter Notebook:
-  `jupyter notebook`
-5. Execute o notebook EDA_inicial.ipynb.
+  
+   ```bash
+   python -m venv venv
+   source venv/bin/activate   # Linux/Mac
+   venv\Scripts\activate      # Windows
+4. Instale os requisitos:
+   ```bash
+   pip install -r requirements.txt
+6. Abra o Jupyter Notebook:
+   ```bash
+   jupyter notebook
+8. Execute o notebook EDA_inicial.ipynb.
